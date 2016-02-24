@@ -4,5 +4,7 @@ long_query_time=2
 slow-query-log=On
 slow_query_log_file="mysql_slow_query.log"
 
+重复mysql服务；
+
 第一句配置说明记录超过多长时间的SQL；
 第三句配置指定日志文件存放路径；
