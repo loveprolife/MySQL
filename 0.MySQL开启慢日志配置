@@ -1,0 +1,8 @@
+找到my.ini配置文件，在[mysqld]节点下添加如下配置：
+
+long_query_time=2 
+slow-query-log=On
+slow_query_log_file="mysql_slow_query.log"
+
+第一句配置说明记录超过多长时间的SQL；
+第三句配置指定日志文件存放路径；
